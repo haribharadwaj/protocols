@@ -165,7 +165,10 @@ Data acquisition software setup
     will be prompted with an error message (because you are yet to choose a file location). Once
     you "Ok" the error, you will be prompted to choose a file name. Navigate to the directory
     where you want the data to be stored and choose a filename approapriate to the 
-    experiment and whatever naming conventions you have.
+    experiment and whatever naming conventions you have. You'll also be prompted to select
+    which channels to save, save only the channels that you are recording (e.g., A1-A32, add EXG1-8).
+    Do not check the box that says "add displayed channels" as that will save an additional
+    copy of whatever you are viewing.
 
 11. If you plan to run a long session without manually intervening, it is useful to set
     file size limits in the "File Limit (MB)" field on the top right (e.g., 500 MB is a
@@ -174,7 +177,9 @@ Data acquisition software setup
 12. If the stimulus delivery program does not automatically start and stop the *saving*
     of data to disk, you should at this time start saving manually by clicking on the
     "Paused" button on the bottom right. If data is being saved, you should see 
-    a green "Saving" button.
+    a green "Saving" button!
+
+.. image:: savingGreen.png
 
 
 13. Once the setup is ready and the subject is ready, start the stimulus program. Make sure
