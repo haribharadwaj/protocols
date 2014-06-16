@@ -7,7 +7,7 @@ Before the subject arrives
 0. Schedule audiogram for subject on
    the HearingScreenings google calendar.
    If you don't know the password, 
-   as someone.
+   ask someone.
    
 1. Instruct the subject to avoid
    using any hair products on the day
@@ -120,6 +120,8 @@ EEG cap setup
 
 10. Turn the amp on and make sure that the blue and the green lights are on
     and steady (indicating that the CMS+DRL contacts are good).
+    
+.. image:: amplifier.gif
 
 Data acquisition software setup
 +++++++++++++++++++++++++++++++
