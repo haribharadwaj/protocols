@@ -4,37 +4,43 @@ EEG scanning protocol at BU ANL
 Before the subject arrives
 --------------------------
 
-0. Instruct the subject to avoid
+0. Schedule audiogram for subject on
+   the HearingScreenings google calendar.
+   If you don't know the password, 
+   as someone.
+   
+1. Instruct the subject to avoid
    using any hair products on the day
    they are coming in for the scan.
 
-1. Test the stimulus delivery
+2. Test the stimulus delivery
    (make sure things look and sound
    like they are supposed to)
 
-2. Make sure current consent forms
+3. Make sure current consent forms
    are available and that they match
    what you need for the study
    (i.e., EEG vs. Behavioral, 
    Normal Hearing vs. HI).
 
-3. Make sure that the subject has
+4. Make sure that the subject has
    undergone a hearing test within
    the past year.
 
-4. Prepare a set of electrodes and
+5. Prepare a set of electrodes and
    syringes
 
-5. Go back to the records to see if
+6. Go back to the records to see if
    the subject has already been
-   consented.
+   consented. Follow the protocol
+   for accessing the database.
 
-6. Make sure the sampling rate dial
+7. Make sure the sampling rate dial
    is set to the desired rate (e.g.,
    "4" for 2048 Hz, "5" for 4096 Hz,
    "7" for 16384 Hz).
 
-7. Make sure that the desired configuration
+8. Make sure that the desired configuration
    file exists on the EEG acquisition computer.
 
 
@@ -51,7 +57,10 @@ Once the subject is here
 2. Remind subjects about using the restroom
    
 3. Prepare subject, describe task (if any),
-   collect data (see below)
+   collect data (see below). In describing
+   the task/stimuli, be sure to mention
+   any sounds that might potentially be
+   startling if unexpected.
 
 
 EEG cap setup
