@@ -1,6 +1,6 @@
 EEG scanning protocol at Purdue SNAPlab
 =======================================
-The would apply for ABRs, EFRs, and
+These would apply for ABRs, EFRs, and
 cortical EEG measirements.
 
 Before the subject arrives
