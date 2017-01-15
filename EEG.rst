@@ -149,8 +149,9 @@ Data acquisition software setup
    and then clicking the reference(s) (e.g., EXG1 and EXG2 (shift+click for multiple)). 
 
 5. It is useful to view the Tigger in "Decimal" format by setting so on the "Trigger
-   Format" drop down. Choosing the decimal format displays only trigger "edges" as opposed
-   to their steady default values.
+   Format" drop down. Choosing the decimal format displays the trigger edges (as opposed
+   to their steady default values) as an easy to read integer that will match the trigger
+   number sent in by the stimulus program (for our hardware setup).
 
 6. Switch to the "Electrode Offset" tab to check on whether the contacts are good enough.
    Typical standard for a good contact is a steady offset of under 20 mV or so. It is
