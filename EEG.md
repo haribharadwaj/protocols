@@ -122,7 +122,6 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     on and steady (indicating that the battery, and the CMS+DRL contacts
     are good).
 
-![image](amplifier.gif)
 
 ### Data acquisition software setup
 
