@@ -198,7 +198,7 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     reference electrode in the pair could be the average of several
     electrode: For instance, in the image below, in the top panel, the
     reference is EXG3 (the ear-canal electrode of Tiptrode in this
-    case), and the other lead in the pair is EXG32 (which is the Cz
+    case), and the other lead in the pair is A32 (which is the Cz
     location). On the other hand, in the botoom panel, the reference is
     the average of A1 to A32 (although only A31 and A32 are in view in
     the screenshot), and the tiptrode (EXG3) is the other active lead.
@@ -210,13 +210,6 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
 15. To choose which events to average online, the Trg bits (in the top
     left) have to be set. The VI is programmed to consider events on a
     bit by bit basis on the digital channel. You can use logical \"AND\"
-    or \"OR\" operations to combine bits. In the example image above,
-    the click events were integers 5 and 6 for condensation and
-    rarefaction polarity clicks (for 100 dB peSPL). 5 is 101 in binary
-    and 6 is 110 is binary. To average only the rarefaction click, we
-    want 110 but not 101, so bit2, and bit3 are chosen, and an \"AND\"
-    operation is selected so that only event \#6 is averaged and
-    displayed. The ABR from rareaction clicks can be seen in the image
-    with just under 6000 trials being averaged. The rejection
-    parameters, sweep length, etc., can be set as desired in online
-    averaging.
+    or \"OR\" operations to combine bits. In the example images above,
+    you can see different filtering and window durations being applied
+    to get online averages for ABRs and cortical N100s respectively.
