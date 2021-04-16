@@ -36,7 +36,7 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
 
 ### EEG cap setup
 
-0.  Make sure that the subject\'s hair/head is dry (we have hair dryers
+1.  Make sure that the subject\'s hair/head is dry (we have hair dryers
     if we need them) and is free of obvious products.
 1.  Measure head circumference and choose cap size accordingly based on
     the cap size indicated on the tag. If the head circumference is at
