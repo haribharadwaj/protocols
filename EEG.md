@@ -126,7 +126,7 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     prompted. We have a default config file that should be loaded
     automatically. So you shouldn't typically be prompted.
 
-![image](ScreenShotEEG.png)
+![image](ScreenshotEEG.png)
 
 2.  Hit the start button on the top left. You should see a stream of
     data coming in.
