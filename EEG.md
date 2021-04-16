@@ -1,11 +1,8 @@
----
-title: EEG scanning protocol at Purdue SNAPlab
----
+# EEG scanning protocol at Purdue SNAPlab
 
 These would apply for ABRs, EFRs, and cortical EEG measurements.
 
-Before the subject arrives
-==========================
+## Before the subject arrives
 
 1.  Instruct the subject to avoid using any hair products on the day
     they are coming in for the scan.
@@ -24,8 +21,7 @@ Before the subject arrives
 8.  Make sure that the desired configuration file exists on the EEG
     acquisition computer.
 
-Once the subject is here
-========================
+## Once the subject is here
 
 1.  Consent subject if not already done or unsure: This involves
     describing what the experiment entails, what the risks are, what the
@@ -38,8 +34,7 @@ Once the subject is here
     might potentially be startling if unexpected (e.g., MEMR elicitor).
     Run DEMO version of task, if applicable.
 
-EEG cap setup
--------------
+### EEG cap setup
 
 0.  Make sure that the subject\'s hair/head is dry (we have hair dryers
     if we need them) and is free of obvious products.
@@ -97,8 +92,7 @@ EEG cap setup
 
 ![image](amplifier.gif)
 
-Data acquisition software setup
--------------------------------
+### Data acquisition software setup
 
 1.  Start the ActiView7xx program and choose a configuration file when
     prompted.
