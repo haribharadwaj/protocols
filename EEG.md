@@ -4,6 +4,9 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
 
 ## Before the subject arrives
 
+1.  Follow all COVID-specific protocols
+    (Qualtrics survey for subject within 48 hours before, temperature check in the lobby,
+    ensuring mask usage, etc.)
 1.  Instruct the subject to avoid using any hair products on the day
     they are coming in for the scan.
 2.  Test the stimulus delivery (make sure things look and sound like
@@ -11,15 +14,18 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
 3.  Make sure that printed current consent forms are available and that
     they match what you need for the study. The current protcol number
     is 1609018209.
-4.  Check lab secure database to see if subject has already been
-    consented, and see what experiments have already been done.
-5.  Prepare a set of electrodes and syringes
-6.  Go back to the records to see if the subject has already been
-    consented. Follow the protocol for accessing the database.
+4.  Check lab secure database (SubjectContact.xlsx) to see if subject has already been
+    consented. If not, issue a new subject ID and add their contact info.
 7.  Make sure the sampling rate dial is set to the desired rate (e.g.,
     \"4\" for 2048 Hz, \"5\" for 4096 Hz, \"7\" for 16384 Hz).
-8.  Make sure that the desired configuration file exists on the EEG
-    acquisition computer.
+    We typically use 16384 Hz for ABR or subcortical responses if we are
+    interested in transient features, 4096 Hz for most else.
+    For purely cortical responses, 2048 is reasonable.
+8.  Disinfect work surface with wipes and prepare set of electrodes and
+    syringes by laying them out on a clean surface, possibly with paper towels.
+    Do **not** fill syringe with gel yet, wait until subject is actually here to do so.
+
+![Work surface for setup](surface.jpg)
 
 ## Once the subject is here
 
@@ -54,28 +60,50 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     wipe even regular EEG sites when they are not covered by hair (e.g.,
     on the forehead).
 4.  If the reference electrode is under the cap (e.g., mastoid bone),
-    apply them first (see 7). Then tighten the chinstrap. On the other
+    apply them first. Then tighten the chinstrap. On the other
     hand, if the references are in front of the cap (e.g., earlobes),
-    save the references for the last.
-5.  Once the cap is on an secured and you have applied any electrodes
+    save the references for the last (i.e., just before CMS-DRL).
+5.  Once the cap is on and secured and you have applied any electrodes
     that go under the cap, run head digitization, if applicable,
-    following the protocol. We will likely do this for all cortical EEG
-    experiments and not for ABRs and EFRs.
-6.  Inject electrolyte gel into the slots on the cap. It is only
-    necessary to gently part the hair so that the gel makes contact with
-    the scalp. It is not necessary to abrade the scalp.
+    following the protocol. We will do this for cortical EEG
+    experiments where we are interested in source localization, 
+    and typically not for ABRs and EFRs.
+5.  For most of the prep, and especially for affixing electrodes to the cap,
+    it is best to stand behind and slightly to the left of the subject.
+    That way, most cables will tend to come out to the subject's left.
+    That makes it easier to end up with a bundle to attach to the amp which
+    will be on the subjects left inside the booth.
+
+![Best to prep from behind and slight to the left](prep.jpg)
+
+6.  Inject electrolyte gel into the slots on the cap:
+    -   Use the syringe tip to gently part the hair so that the
+        gel makes contact with the scalp.
+        It is not necessary to abrade the scalp.
+    -   **Start** pistoning out the gel with the tip touching the scalp
+        but draw the syringe out as you squirt gel. That way the syringe
+        doesn't pull our the gel with it.
+    -   It is good practice to ask the subject if they felt cold gel,
+        especially in areas where there is more hair.
+    -   There are two opposing considerations to keep in mind when applying
+        gel: Too little gel may not allow for forming stable contact,
+        but too much gel runs the risk of bridging two different channels!
+    -   The DRL site is especially important to get a really nice contact.
 7.  Once all the electrodes are \"gel\"-ed, affix the electrodes in
     order (ascending or descending). It is useful to follow the bunching
-    order that the electrode set inherently has. This is not necessary
-    for the ActiveEZ caps if we ever use them.
+    order that the electrode set inherently has.
 8.  Affix external reference channels if any: Use the double sided round
     sticker. Make sure to expose the metal contact when sticking the
     sticker on. Apply the electrolyte gel on the contact avoiding the
-    glue area. Affix the channel on the subject. If it seems like the
-    electrode might be unstable, use micropore tape as needed. Make sure
+    glue area. Affix the channel on the subject.
+    Use micropore tape as needed to stabilize the fixture. Make sure
     to note which electrode was attached to which site (e.g., left vs.
     right) so that they can be inserted into the correct slot on the
-    amplifier.
+    amplifier. Our convention is to use:
+    -   EXG1 for left earlobe [or mastoid, but earlobe preferred]
+    -   EXG2 for right earlobe [or mastoid, but earlobe preferred]
+    -   EXG3 for left tiptrode (if using)
+    -   EXG4 for right tiptrode (if using)
 9.  Attach CMS+DRL. Gather all the other electrodes in a bunch and coil
     the CMS+DRL wires around the bunch at least 5 times, finally
     securing them with the velcro band. The coiling makes external
@@ -94,10 +122,11 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
 
 ### Data acquisition software setup
 
-1.  Start the ActiView7xx program and choose a configuration file when
-    prompted.
+1.  Start the ActiView program and choose a configuration file if
+    prompted. We have a default config file that should be loaded
+    automatically. So you shouldn't typically be prompted.
 
-![image](actiview.jpg)
+![image](ScreenShotEEG.png)
 
 2.  Hit the start button on the top left. You should see a stream of
     data coming in.
@@ -153,7 +182,7 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     right. If data is being saved, you should see a green \"Saving\"
     button!
 
-![image](savingGreen.png)
+![Look for green saving sign when running](savingGreen.png)
 
 13. Once the setup is ready and the subject is ready, start the stimulus
     program. Make sure that the data is being saved and that triggers
@@ -174,7 +203,9 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     the average of A1 to A32 (although only A31 and A32 are in view in
     the screenshot), and the tiptrode (EXG3) is the other active lead.
 
-![image](onlineAverage.png)
+![Online averaging for an ABR response](onlineAverage.png)
+![Online averaging for a cortical N100 response](onlineAverage2.png)
+
 
 15. To choose which events to average online, the Trg bits (in the top
     left) have to be set. The VI is programmed to consider events on a
