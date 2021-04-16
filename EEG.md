@@ -109,11 +109,15 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     securing them with the velcro band. The coiling makes external
     capacitively-coupled sources of interference be more part of the
     common-mode and less differential, helping take advantage of
-    Biosemi\'s active CMRR (e.g., reduced 60 Hz noise).
+    Biosemi\'s active CMRR (e.g., reduced 60 Hz noise). This is similar
+    to the idea of a "twisted pair" in electrical engineering.
+
 10. Escort the subject into the sound booth and attach the electrodes in
-    the appropriate slots on the amplifier. One useful convention to
-    follow is to always attach the left reference electrode to EXG1 and
-    right to EXG2.
+    the appropriate slots on the amplifier.
+    Below is what a 96-channel setup might look like.
+
+![Wrap the CMS-DRL around the rest and secure using velcro](bundle.jpg)
+
 11. Turn the amp on and make sure that the blue and the green lights are
     on and steady (indicating that the battery, and the CMS+DRL contacts
     are good).
