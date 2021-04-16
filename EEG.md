@@ -114,6 +114,11 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
 
 10. Escort the subject into the sound booth and attach the electrodes in
     the appropriate slots on the amplifier.
+    **IMPORTANT**: Make sure you are orienting the electrode connector
+    appropriately when connecting to the slot on the amp. The connector
+    is trapezoidal in shape and *not* rectangular and cannot be flipped.
+    If we force it in with the wrong orientation, both the amp and electrode
+    bundle would be damaged leading to costs and significant downtime.
     Below is what a 96-channel setup might look like.
 
 ![Wrap the CMS-DRL around the rest and secure using velcro](bundle.jpg)
