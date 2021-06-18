@@ -29,7 +29,7 @@ As of this writing, we have three approved IRB protocols:
 The intervention protocol requires special training,
 and the web-based protocol is such that all thre required records are kept
 either by Prolific.co or by snaplabonline.com, so we'll skip both here.
-All of the information below is appplicable to our **"main" protocol.**
+So IRB in the sections below refers to our **"main" protocol.**
 
 Separate from IRB/grant/project level documentation,
 we also have the COVID19 documentation and safety procedures,
@@ -44,6 +44,13 @@ Please read the protocol text and consent forms for the protocols you are using.
 Referesh often. If you see anything that is odd or could be changed, we can discuss
 and amend as needed. They are available on Slack, Z drive (Synology), and Google Drive.
 
+### Mandatory training requirements
+
+- CITI
+- RCR
+
+### Technical training
+
 
 ## Enrollment and informed consent (IRB-specific)
 
@@ -52,10 +59,23 @@ and amend as needed. They are available on Slack, Z drive (Synology), and Google
 ### Mandatory forms and where to store this data
 
 
+
+## Subject payments (Specific to a combination of IRB and Grant)
+
+
 ## Visit log (project-specific)
+
+### Calendar logging
+
+### Lab notebook
+
+### Data-collection progress sheets
+
+
 
 ## Raw data archival (universal)
 
 ## Processed data and results archival (project-specific)
 
+### Data sharing for papers
 
