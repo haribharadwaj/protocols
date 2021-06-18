@@ -46,22 +46,69 @@ and amend as needed. They are available on Slack, Z drive (Synology), and Google
 
 ### Mandatory training requirements
 
-- CITI
-- RCR
+All personnel who will work on a study need to be added to the IRB explicitly.
+
+- CITI 
+- RCR (Responsible Conduct of Research)
 
 ### Technical training
+
+- Informal within our lab. 
 
 
 ## Enrollment and informed consent (IRB-specific)
 
+- Legally needed
+- Critical component of IRB protocol
+
 ### What to cover when obtaining informed-consent
 
+- Overview of what's going to happen to subject (what is EEG, they'll hear sounds, etc.)
+- Remind them that is research and not clinical measurements:
+For example, if a subject comes in thinking they have normal hearing, but we find
+audiometric elevation, we  can explain that they don't meet our research critera for enrollment,
+but also that this is not a clinical diagnosis. We tehn give them referral resources to follow up with
+real clinicians.
+- Mention risks:
+	1. Loud sounds
+	2. Skin irritation from contacts
+	3. Risk to privacy: We'll collect information like SSN, address, etc. for payment purposes
+- How they'll get paid (& how much)
+- If they are on a visa.. then extra paperwork needed for payments
+	Either SSN (e.g., Purdue employees) -- or -- 
+	1. Glacier form
+	2. Passport copy
+	3. Copy of I-94
+	4. Copy of their status form (depend on visa: I-20 for F-visas, DS-2019 for J-visas)
+
+- After signing consent form, have them fill our mandatory form(s).
+- Assign a subject ID for the individual on the "SubjectContacts.xls" sheet on Z-drive.
+All data are then associated with the subject ID (Sxxx, e.g, S123).
+
 ### Mandatory forms and where to store this data
+
+All forms are available on Slack channel for printing. Paper copies will be in the cabinet.
+
+- Consent form: Stored in binder (IRB-specific). Reconsent is always Ok.
+- Demographics form: Age, gender, race and ethnicity (Required funding agencies).
+Paper copy stored with consent form. Electronically enter this info into our
+demographics spreadsheet on google drive (link of Slack).
+This will faciliate progress reports for NIH/NSF etc.
+- Intro form: Asks about native speaker status, and visa status. This will prompt you
+to inform international individuals appropriately.
 
 
 
 ## Subject payments (Specific to a combination of IRB and Grant)
 
+- Payment forms specify IRB number and funding source, so will be a different one for each combination of
+IRB and grant.
+- Fill out electronically on the .XLS form, but **do not** save, print instead
+- For extra visits, write payment number by hand
+- At the end of all visits: Send scanned copy to Emily  via filelocker.
+Make sure to sent to the right "Emily".
+- Leave paper copy in the cabinet with some annotation (until subject gets paid, which is 6 weeks)
+- Keep a record of who has been paid (project-specific, see visit log)
 
 ## Visit log (project-specific)
 
