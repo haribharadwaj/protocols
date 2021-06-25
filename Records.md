@@ -1,5 +1,8 @@
 # Overview of paperwork and record-keeping protocols at SNAPlab
 
+Below is a general overview of the protocols. If there are questions,
+please post in the lab slack group and we can sort it out.
+
 When thinking about paperwork for research, it is useful to keep in mind
 that there are three buckets under which we need detailed documentation:
 
