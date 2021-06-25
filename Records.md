@@ -224,7 +224,43 @@ Project_Name
 
 ```
 
+By Fall semester (Aug 23rd, 2021), let's try to be current with raw data archival.
+
+Keep extra copies on Z-drive (optional for post-COVID data). Don't delete any data from Z-drive.
+
+
 ## Processed data and results archival (project-specific)
 
+At the time when the is written up for publication, the following should be true:
+- Final results to reproduce figures should all be in one location.
+- Code to go from raw data to final results should be available (e.g., on github: recommended).
+- Any intermedite large files can be archived on Box if appropriate.
+
 ### Data sharing for papers
+
+Individual subject (processed) data and code to reproduce figures should be shared with papers.
+Example:
+- For an EEG study, a ```.mat``` file with individual ERPs and time-frequency matrices, along with code to 
+plot figures from them would be appropriate.
+- For a behavioral study, spreadsheets with thresholds, percent-corrects etc., and code to plot them.
+- For all studies, spreadsheets with subject age, audiogram, gender, etc. 
+
+
+Make a folder on Box for each submitted paper and dump this information there.
+
+## Overall Checklist of Recordkeeping
+
+| Document | Where to store? |
+|----------|-----------------|
+| Consent form | On paper in the binder inside our lab cabinet |
+| Demographics form | On paper with consent form, Electronically enter on google drive |
+| Intro/intake form | On paper with consent form |
+| Visit logs | Electronic, with individual researcher, archive with raw data at the end of study |
+| Progress sheet | Electronic, with individual researcher, archive with raw data at the end of study |
+| Payment form | Print and submit, don't save |
+| Payment log | Electronic, along with progress sheet |
+| Raw data | Archive on Box as per recommended structure |
+| Processed data | Archive on Box, code on github or Box, at the time of paper writing |
+| Lab notebooks (informal) | Keep with individual researcher until part of lab |
+
 
