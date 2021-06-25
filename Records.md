@@ -155,6 +155,8 @@ Recommended structure for visit log:
 Please fill out the visit log while you are in the lab collecting data rather than retroactively.
 Visit logs also have legal weight in priority disputes (e.g., patenting).
 
+Visit logs should be archived with the raw data at the end of the data-collection phase of the study (see "Raw data archival" below).
+
 ### Data-collection progress sheets (project-specific)
 
 This is different from visit logging.
@@ -168,6 +170,9 @@ One important component of this progress sheet is to include information about p
 - Date when payment form was submitted to business office
 - Amount
 - Subject ID
+
+Progress sheets should be archived with the raw data at the end of the data-collection phase of the study (see "Raw data archival" below).
+
 
 ### Lab notebook (researcher-specific)
 
@@ -221,6 +226,9 @@ Project_Name
 |		+-- Measure1
 |		+-- Measure2
 |		+-- ...	
+|
++--	VisitLogs (add at end of data collection phase of the study)
++--	Progress Sheets (add at end of data collection phase of the study)
 
 ```
 
@@ -231,10 +239,11 @@ Keep extra copies on Z-drive (optional for post-COVID data). Don't delete any da
 
 ## Processed data and results archival (project-specific)
 
-At the time when the is written up for publication, the following should be true:
-- Final results to reproduce figures should all be in one location.
-- Code to go from raw data to final results should be available (e.g., on github: recommended).
-- Any intermedite large files can be archived on Box if appropriate.
+At the time when the data is written up for publication, the following should be done:
+- Final individual-subject results from which figures can be made should all be in one location.
+- Code to plot figures should be stored with the data needed to reproduce figures.
+- Code to go from raw data to final results should be available (ideally on github **and** with the final processed data).
+- Any intermedite large files can optionally be archived on Box if appropriate (e.g., will help with future new analyses on same data).
 
 ### Data sharing for papers
 
@@ -245,10 +254,9 @@ plot figures from them would be appropriate.
 - For a behavioral study, spreadsheets with thresholds, percent-corrects etc., and code to plot them.
 - For all studies, spreadsheets with subject age, audiogram, gender, etc. 
 
+Make a folder on Box under the ```MANUSCRIPT_DATA``` for each submitted paper and dump this information there.
 
-Make a folder on Box for each submitted paper and dump this information there.
-
-## Overall Checklist of Recordkeeping
+## Overall Checklist for Recordkeeping
 
 | Document | Where to store? |
 |----------|-----------------|
