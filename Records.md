@@ -154,10 +154,17 @@ Visit logs also have legal weight in priority disputes (e.g., patenting).
 
 ### Data-collection progress sheets (project-specific)
 
-This is different from visit logging. This is a place to track who has done what concisely.
+This is different from visit logging.
+This is a place to track which subject has done what parts of the study concisely.
 The best organization for this spreadsheet will depend on the project.
 One way to organize it would to have a table of planned measures of the study with empty boxes that you can check off
 by writing an X.
+
+One important component of this progress sheet is to include information about payment. This info should include:
+
+- Date when payment form was submitted to business office
+- Amount
+- Subject ID
 
 ### Lab notebook (researcher-specific)
 
@@ -196,7 +203,7 @@ Project_Name
 |		+-- Measure1
 |		+-- Measure2
 |		+-- ...
-|	+-- SubjID2
+|	+--	SubjID2
 |		+-- Measure1
 |		+-- Measure2
 |		+-- ...	
@@ -207,7 +214,7 @@ Project_Name
 |		+-- Measure1
 |		+-- Measure2
 |		+-- ...
-|	+-- SubjID2
+|	+--	SubjID2
 |		+-- Measure1
 |		+-- Measure2
 |		+-- ...	
