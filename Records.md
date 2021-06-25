@@ -138,20 +138,81 @@ Make sure to sent to the right "Emily" (see Slack for details).
 ## Visit log (project-specific)
 
 - Data collection for all studies is organized as a set of subject visits (one or more).
-The list of measurements to be done at each visit is pre-set before beginning the study and should followed closely for all subjects. It is also important to pre-determine subject N and stick to it: **we cannot use the data to determine when to stop**.
+The list of measurements to be done at each visit is pre-set before beginning the study and should followed closely for all subjects. It is also important to pre-determine study N and stick to it: **using data to decide when to can amount to p-hacking**.
 - Keep a spreadsheet will allow for tracking which subjects have completed which visits, when. Also leave space for comments about data collection issues (e.g., "Re-ran OAE after realizing that the tip fell out half-way through. Repeat run is marked as v2").
 - Never delete any data even if you re-run something.
-- 
+- Have file naming conventions that include subject ID (e.g., S050_ProjectX_ABR.bdf)
+
+Recommended structure for visit log:
+
+| Date | Subject ID | Experimenter | Visit number (within project) | Measures collected | Comments (data quality, file naming) |
+|------|------------|--------------|-------------------------------|--------------------|--------------------------------------|
+|      |            |              |                               |                    |                                      |
+
+Please fill out the visit log while you are in the lab collecting data rather than retroactively.
+Visit logs also have legal weight in priority disputes (e.g., patenting).
+
+### Data-collection progress sheets (project-specific)
+
+This is different from visit logging. This is a place to track who has done what concisely.
+The best organization for this spreadsheet will depend on the project.
+One way to organize it would to have a table of planned measures of the study with empty boxes that you can check off
+by writing an X.
+
+### Lab notebook (researcher-specific)
+
+The lab notebook is essentially a place to document research progress as you go through the project.
+Conventionally, lab notebooks are one at a time for a whole data-collection facility and served as visit log.
+For us, formal visit logging is electronic, and so lab notebooks are less formal, and can contain:
+
+- A handwritten version of data collection progress (like visit log)
+- Analysis outcomes and thoughts surrounding that
+- Design decisions
+
 
 ### Calendar logging
 
-### Lab notebook
-
-### Data-collection progress sheets
-
+- Our google calendar also serves as a record of visits.
+- When you reserve time, include your name and subject ID
+- If it's new subject and you haven't assigned an ID yet (say something like Sxxx or Snew), and then on visit day, edit it to have the actual ID.
 
 
 ## Raw data archival (universal)
+
+Prior to the COVID19 pandemic, raw data was archived on the "Z drive" (lab synology drives).
+Any raw data you collect in the lab post-COVID (starting June 2020) should be cloud archived using Box.
+Access is provided by Purdue for free here: https://purdue.account.box.com/
+
+Specifically, any *raw* data collected should be in the ```SNAPlab Data Archive``` folder (you should have received invitations). Within that, there is a folder for each researcher in the lab.  If it's a joint study, achive under one of your names.
+
+For each our your studies, create the following structure inside the folder with your name (avoid spaces in names, use camel case or underscores):
+
+```
+Project_Name
+|
++-- Pilot
+|
+|	+--	SubjID1
+|		+-- Measure1
+|		+-- Measure2
+|		+-- ...
+|	+-- SubjID2
+|		+-- Measure1
+|		+-- Measure2
+|		+-- ...	
+|
++-- FullStudy
+|
+|	+--	SubjID1
+|		+-- Measure1
+|		+-- Measure2
+|		+-- ...
+|	+-- SubjID2
+|		+-- Measure1
+|		+-- Measure2
+|		+-- ...	
+
+```
 
 ## Processed data and results archival (project-specific)
 
