@@ -26,13 +26,13 @@ As of this writing, we have three approved IRB protocols (and one dormant one):
 
 - Protocol # 1609018209, which is the "main" protocol
 - Protocol # IRB-2020-876 for web-only studies (this is technically an approved exemption)
-- Protocol # 1904022076, which allows everything in the main protocol, but allows interventions (allowing earplug and noise-machine studies, currently).
-- We have a dormant pediatric protocol from before than can be resurrected if needed (not currently approved).
+- Protocol # 1904022076, which allows everything in the main protocol, but also allows interventions (earplug and noise-machine studies, currently).
+- We have a dormant pediatric/family protocol from before than can be resurrected if needed (not currently approved).
 
 
 The intervention protocol requires special training,
 and the web-based protocol is such that all the required records are kept
-either by Prolific.co or by snaplabonline.com, so we'll skip both here.
+by our [SNAPlabOnline Django app](https://www.snaplabonline.com/), so we'll skip both here.
 So IRB in the sections below refers to our **"main" protocol.**
 
 Separate from IRB/grant/project level documentation,
@@ -76,18 +76,23 @@ If you have done any CITI training, or if you just want to start afresh anyway,
 you may have to create an online account with CITI.
 Once you are in, for SNAPlab, please complete the **"Biomedical Research for Investigators and Key Personnel Learner Group"** training.
 
-- RCR (Responsible Conduct of Research). This is ongoing training both via formal courses at Purdue, and via RCR faculty-led discussions that happen at various seminars (e.g., Seminars in Hearing Research, or SLHS Brown Bag seminar).
+- RCR (Responsible Conduct of Research). This is ongoing training both via formal courses at Purdue (e.g., GRAD 612),
+and via RCR faculty-led discussions that happen at various seminars (e.g., Seminars in Hearing Research, or SLHS Brown Bag seminar).
 
-- Send CITI certificates to Hari upon completion of training. RCR training is tracked by Purdue.
+- Send CITI certificates to Hari upon completion of training to be added to protocol. RCR training is tracked by Purdue.
 
 
 ## Technical training
 
-- Technical training is informal within our lab and is somewhat self-paced.
+- Technical training is informal within our lab and is somewhat self-paced. 
 - General principle is that you should be well-practiced in (and have a reasonable understanding of)
-all the measures you plan to collect on real subjects
+all the measures you plan to collect, and be comfortable working in sync with our IRB protocol
 before getting real subjects in.
 - Practise by running self or other lab members.
+- Everybody, regardless of background will be able to pick up data analysis skills and have a working understanding of the details.
+Perhaps the most effective way of picking up quantitative skills relevant for data analysis is to start with some actual data and a an associated research question, especially from your own project.
+- One technical aspect of our research that is not easy is programming stimulus presentation sequences, behavioral tasks, and/or adapting data acquisition hardware to set up new measurement paradigms. This requires an array of different skills and considerable familiarity with the literature surrounding the specific measures you might want to design. Therefore, if you are undertaking this task, please work closely with lab members who are experienced in this aspect throughout the set up process.
+- There are no specific documentation formalities for technical training in our lab (should we change this?).
 
 
 ## Enrollment and informed consent (IRB-specific)
