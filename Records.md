@@ -90,27 +90,34 @@ all the measures you plan to collect, and be comfortable working in sync with ou
 before getting real subjects in.
 - Practise by running self or other lab members.
 - Everybody, regardless of background will be able to pick up data analysis skills and have a working understanding of the details.
-Perhaps the most effective way of picking up quantitative skills relevant for data analysis is to start with some actual data and a an associated research question, especially from your own project.
-- One technical aspect of our research that is not easy is programming stimulus presentation sequences, behavioral tasks, and/or adapting data acquisition hardware to set up new measurement paradigms. This requires an array of different skills and considerable familiarity with the literature surrounding the specific measures you might want to design. Therefore, if you are undertaking this task, please work closely with lab members who are experienced in this aspect throughout the set up process.
+Perhaps the most effective way of picking up quantitative skills relevant for data analysis is to start with some actual data and an associated research question (especially from your own project).
+- One technical aspect of our work that is not easy is programming stimulus presentation sequences, behavioral tasks, and/or adapting data acquisition hardware to set up new measurement paradigms. This is so because it requires an array of different skills and considerable familiarity with the literature surrounding the specific measures. Therefore, if you are undertaking this task, please work closely with lab members who are experienced in this aspect throughout the set up process.
 - There are no specific documentation formalities for technical training in our lab (should we change this?).
 
 
 ## Enrollment and informed consent (IRB-specific)
 
-- Legally/ethically needed
-- Critical component of IRB protocol
+- Post approved flyers on various physical and virtual bulleting boards
+- Informed consent legally/ethically needed
+- Consenting is a critical component of the IRB protocol
+- Once a subject is enrolled following informed consent, assign a subject ID by looking at the password-protected ```SubjectContact.xlsx``` spreadsheet on the Z drive and incrementing the ID number by 1.
+It's possible that a "new" subject has
+actually participated in studies in our lab before, and you'll be able to see that when looking at the spreadsheet.
+- Re-consenting is fine, but please use a subject's old ID if they have one.
+In this case, update the "consent date" field in the spreadsheet.
+
 
 ### What to cover when obtaining informed-consent
 
 - Overview of what's going to happen to the subject
-(they'll hear sounds, have electrodes attached via "swimming" cap etc.).
+(they'll hear sounds, do tasks, have electrodes attached via "swimming" cap etc.).
 - Remind them that all measurements are research-related and not clinical measurements:
 For example, if a subject comes in thinking they have normal hearing, but we find
-audiometric elevation, we  can explain that they don't meet our research critera for enrollment,
-but also that this is not a clinical diagnosis. We then give them referral resources to follow up with
+audiometric threshold elevation, we  can explain that they don't meet our **research critera** for enrollment,
+but also that this is **not** a clinical diagnosis. We can then give them referral resources to follow up with
 real clinicians (see IRB narrative for more details).
-- Mention risks:
-	1. Loud sounds
+- Mention risks and how they are unlikely, but could happen:
+	1. Loud sounds (if they find anything too loud, they can remove headphones/earphones and let us know)
 	2. Skin irritation from contacts/gels/wipes
 	3. Risk to privacy: We'll collect information like SSN, address, etc. for payment purposes
 - Mention how they'll get paid (& how much)
@@ -123,21 +130,22 @@ real clinicians (see IRB narrative for more details).
 
 - If subjects don't want to or don't have the documents needed for us to pay them,
 then we can't pay them and you should not run them.
-- After signing consent form, have them fill our mandatory form(s).
-- Assign a subject ID for the individual on the "SubjectContacts.xls" sheet on Z-drive.
+- After signing consent form, have them fill our mandatory forms (see below).
+- Assign a subject ID for the individual on the ```SubjectContacts.xlsx``` sheet on Z-drive.
 All data are then associated with the subject ID (Sxxx, e.g, S123).
 
 ### Mandatory forms obtained during the consent process and where to store this data
 
 All forms are available on Slack channel for printing. Paper copies will be in the cabinet.
+Please print more if you see that we are running low.
 
 - Consent form: Stored in binder (IRB-specific). Reconsent is always Ok.
 - Demographics form: Age, gender, race and ethnicity (Required by funding agencies).
 Paper copy stored with consent form. Electronically enter this info into our
 demographics spreadsheet on google drive (link of Slack).
 This will faciliate progress reports for NIH/NSF etc.
-- Intro form: Asks about native speaker status, and visa status. This will prompt you
-to inform international individuals appropriately.
+- Intro form: Asks one question each about native speaker status, loud sound-exposure status, and visa status.
+This will also prompt you to inform international individuals appropriately. Save this form on paper with the consent form.
 
 
 ## Subject payments (Specific to a combination of IRB and Grant)
@@ -196,14 +204,16 @@ For us, formal visit logging is electronic, and so lab notebooks are less formal
 
 - A handwritten version of data collection progress (like visit log)
 - Analysis outcomes and thoughts surrounding that
-- Design decisions
+- Design decisions while piloting
+- etc.
 
 
 ### Calendar logging
 
-- Our google calendar also serves as a record of visits.
+- Our google calendar also serves as an additional a record of visits.
 - When you reserve time, include your name and subject ID
 - If it's new subject and you haven't assigned an ID yet (say something like Sxxx or Snew), and then on visit day, edit it to have the actual ID.
+- If you have a no-show or last-minute cancellation, remember to delete or move the old event.
 
 
 ## Raw data archival (universal)
@@ -261,7 +271,8 @@ At the time when the data is written up for publication, the following should be
 
 ### Data sharing for papers
 
-Individual subject (processed) data and code to reproduce figures should be shared with papers.
+We will practice open-science as much as possible.
+Individual subject (processed) data and code to reproduce figures should be shared/shareable with papers.
 Example:
 - For an EEG study, a ```.mat``` file with individual ERPs and time-frequency matrices, along with code to 
 plot figures from them would be appropriate.
