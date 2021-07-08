@@ -72,7 +72,7 @@ To be added to the IRB, you should have training associated with human subjects 
 - CITI: Information about CITI training can be found at the [Purdue IRB website](https://www.irb.purdue.edu/training/),
 where you will find links to the training ["CITI Human Subjects Research Basic Course"](https://www.citiprogram.org/). 
 If you have done any CITI training before, you can use your old account to login and affiliate with Purdue university once you are in -- this might let you skip some of the modules.
-If you have done any CITI training, or if you just want to start afresh anyway,
+If you have not done any CITI training, or if you just want to start afresh anyway,
 you may have to create an online account with CITI.
 Once you are in, for SNAPlab, please complete the **"Biomedical Research for Investigators and Key Personnel Learner Group"** training.
 
