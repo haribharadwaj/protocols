@@ -122,6 +122,7 @@ real clinicians (see IRB narrative for more details).
 	3. Risk to privacy: We'll collect information like SSN, address, etc. for payment purposes
 - Mention how they'll get paid (& how much)
 - If they are on a visa, then extra paperwork needed for payments
+
 	Either SSN (e.g., Purdue employees) -- or -- 
 	1. Glacier form
 	2. Passport copy
