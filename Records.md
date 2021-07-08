@@ -299,6 +299,6 @@ Make a folder on Box under the ```MANUSCRIPT_DATA``` for each submitted paper an
 | Raw data | Archive on Box as per recommended structure |
 | Processed data | Archive on Box, code on github or Box, at the time of paper writing |
 | Lab notebooks (informal) | Keep with individual researcher until part of lab |
-| Calendar logging | Done audiomatically |
+| Calendar logging | Done automatically |
 
 
