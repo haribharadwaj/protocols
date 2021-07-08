@@ -97,7 +97,7 @@ Perhaps the most effective way of picking up quantitative skills relevant for da
 
 ## Enrollment and informed consent (IRB-specific)
 
-- Post approved flyers on various physical and virtual bulleting boards
+- Post approved flyers on various physical and virtual bulletin boards
 - Informed consent legally/ethically needed
 - Consenting is a critical component of the IRB protocol
 - Once a subject is enrolled following informed consent, assign a subject ID by looking at the password-protected ```SubjectContact.xlsx``` spreadsheet on the Z drive and incrementing the ID number by 1.
