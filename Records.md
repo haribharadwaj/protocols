@@ -143,29 +143,31 @@ Please print more if you see that we are running low.
 - Consent form: Stored in binder (IRB-specific). Reconsent is always Ok.
 - Demographics form: Age, gender, race and ethnicity (Required by funding agencies).
 Paper copy stored with consent form. Electronically enter this info into our
-demographics spreadsheet on google drive (link of Slack).
+demographics spreadsheet on google drive (link on Slack).
 This will faciliate progress reports for NIH/NSF etc.
+Note that if a subject doesn't want to fill out this form, 
+there are "not-reported" options that they can check off, or you can check off on their behalf.
 - Intro form: Asks one question each about native speaker status, loud sound-exposure status, and visa status.
 This will also prompt you to inform international individuals appropriately. Save this form on paper with the consent form.
 
 
 ## Subject payments (Specific to a combination of IRB and Grant)
 
-- Payment forms specify IRB number *and* funding source, so will be a different one for each combination of
+- Payment forms specify IRB number *and* funding source, so will be a different form for each combination of
 IRB and grant.
 - Fill out electronically on the .XLS form in the lab computer, but **do not** save, print instead
 - For extra visits, write payment number by hand
 - At the end of all visits: Send scanned copy to Emily  via filelocker (delete any electronic version made in the process)
-**Make sure to sent to the right "Emily" (see Slack for details).**
-- Leave paper copy in the cabinet with some annotation (until subject gets paid, which should be 4-5 weeks). Then shred.
+**Make sure to send to the right "Emily" (see Slack for details).**
+- Leave paper copy in the cabinet with some pencil annotation (until subject gets paid, which should be 4-5 weeks). Then shred.
 - Keep a record of who has been paid (**project-specific**, see progress sheet below)
 
 ## Visit log (project-specific)
 
 - Data collection for all studies is organized as a set of subject visits (one or more).
-The list of measurements to be done at each visit is pre-set before beginning the study and should followed closely for all subjects. It is also important to pre-determine study N and stick to it: **using data to decide when to can amount to p-hacking**.
-- Keep a spreadsheet will allow for tracking which subjects have completed which visits, when. Also leave space for comments about data collection issues (e.g., "Re-ran OAE after realizing that the tip fell out half-way through. Repeat run is marked as v2").
-- Have file naming conventions that include subject ID (e.g., S050_ProjectX_ABR.bdf)
+The list of measurements to be done at each visit is pre-set before beginning the study and should be followed closely for all subjects. It is also important to pre-determine study N and stick to it: **using data to decide when to stop can amount to p-hacking, essentially invalidating conclusions**.
+- Keep a spreadsheet that will allow for tracking which subjects have completed which visits and on what date(s). Also leave space for comments about data collection issues (e.g., "Re-ran OAE after realizing that the tip fell out half-way through. Repeat run filename has a v2 suffix").
+- Have file naming conventions that include subject ID, and some codes for what's in it, and which project it's for (e.g., S050_ProjectX_ABR.bdf)
 - Never delete any data even if you re-run something. Add suffix to filename instead (e.g., S050_ProjectX_ABRv2.bdf)
 
 
@@ -188,7 +190,7 @@ The best organization for this spreadsheet will depend on the project.
 One way to organize is to have a table of planned measures of the study as columns, and subject ID as rows with empty boxes that you can check off
 by writing an X.
 
-Another important component of this progress sheet is to include columns about payment.
+***Another important component of this progress sheet is to include columns about payment***.
 For each subject, this info should include.
 
 - Date when payment form was submitted to business office
@@ -201,7 +203,7 @@ Progress sheets should be archived with the raw data at the end of the data-coll
 
 The lab notebook is essentially a place to document research progress as you go through the project.
 Conventionally, lab notebooks are one at a time for a whole data-collection facility and served as visit log.
-For us, formal visit logging is electronic, and so lab notebooks are less formal, and can contain:
+For us, formal visit logging is electronic, and so lab notebooks are informal, and can contain any progress/research information that you think is important to document. Examples include:
 
 - A handwritten version of data collection progress (like visit log)
 - Analysis outcomes and thoughts surrounding that
@@ -221,6 +223,7 @@ For us, formal visit logging is electronic, and so lab notebooks are less formal
 
 Prior to the COVID19 pandemic, raw data was archived on the "Z drive" (lab synology drives).
 Any raw data you collect in the lab post-COVID (starting June 2020) should be cloud archived using Box.
+Double archiving (i.e., both on Box and Z-drive) is always a good idea, but Box is mandatory for post-COVID data.
 Access is provided by Purdue for free here: https://purdue.account.box.com/
 
 Specifically, any *raw* data collected should be in the ```SNAPlab Data Archive``` folder (you should have received invitations). Within that, there is a folder for each researcher in the lab.  If it's a joint study, achive under one of your names.
@@ -259,7 +262,7 @@ Project_Name
 
 By Fall semester (Aug 23rd, 2021), let's try to be current with raw data archival.
 
-Keep extra copies on Z-drive (optional for post-COVID data). Don't delete any data from Z-drive.
+Keep extra copies on Z-drive (optional for post-COVID data). Don't delete any data from Z-drive even if you have archive the same on Box.
 
 
 ## Processed data and results archival (project-specific)
