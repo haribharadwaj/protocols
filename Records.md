@@ -86,7 +86,7 @@ and via RCR faculty-led discussions that happen at various seminars (e.g., Semin
 ## Technical training
 
 - Technical training is informal within our lab and is somewhat self-paced. 
-- General principle is that you should be well-practiced in (and have a reasonable understanding of)
+- General principle is that you should be well-practised in (and have a reasonably good understanding of)
 all the measures you plan to collect, and be comfortable working in sync with our IRB protocol
 before getting real subjects in.
 - Practise by running self or other lab members.
