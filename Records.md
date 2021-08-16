@@ -61,6 +61,7 @@ Currently, the "main" IRB allows:
 - Making acoustic measurements on subjects (e.g., OAEs, MEMRs, in-ear calibrations)
 - Electrophysiological measurements using caps and/or external electrodes (EEG, EOG, EKG, etc.)
 - Any combination of the above
+- Have subjects wear personal noise-exposure monitoring device for an extended period (e.g., 1 week): Records integrated sound intensity values and not the sound itself
 - Approved surveys/questionnaires
 
 
