@@ -56,10 +56,10 @@ Currently, the "main" IRB allows:
 	- Adults in a specified age range
 	- Adults who are regularly exposed to loud sounds
 - Playing sounds to subjects via headphones, earphones or bone vibrators
-- Pressuring subjects' ears (e.g., for tympanometry)
-- Having subjects do tasks with verbal, button, or keyboard responses
-- Making acoustic measurements on subjects (e.g., OAEs, MEMRs)
-- Electrophysiological measurements caps and external electrodes (EEG, EOG, EKG, etc.)
+- Applying static pressure to subjects' ears (e.g., for tympanometry)
+- Having subjects do tasks with verbal, gestural (e.g., raising hands), button, or keyboard responses
+- Making acoustic measurements on subjects (e.g., OAEs, MEMRs, in-ear calibrations)
+- Electrophysiological measurements using caps and/or external electrodes (EEG, EOG, EKG, etc.)
 - Any combination of the above
 - Approved surveys/questionnaires
 
