@@ -3,6 +3,7 @@
 ## Basic topics
 
 ### Calibration of stationary sounds (including pure tones)
+
 - Sound pressure is local quantity (i.e., varies point-to-point in space, and instance-to-instance in time). What is intensity?
 - Considerations about coupling sound sources to the ear (free-field, circumaural, supra-aural, inserts), and simulating that situation on a calibrating instrument
 - Microphone frequency response on the calibrating instrument (sound level meter)
@@ -21,7 +22,10 @@
 - peSPL etc.
 - RMS for (longer) speech
 
-### Brief note about compressive and time-variant sources (hearing aids) and acknowledge that they are beyond the scope of this document
+### Brief note about nonlinear and time-variant sources and acknowledge that they are beyond the scope of this document
+
+- Hearing aid compression
+- Automatic gain control
 
 ## Advanced topics
 
@@ -33,7 +37,9 @@
 - Define FPL and contrast with incident pressure level
 - Considering pressure phase too vs. calibrations of intensity only
 - Performing FPL calibrations *in situ* as a substitute for real-ear measurements (Scheperle et al., 2011; Souza et al., 2014 and others)
-- Using two-port network theory (Thevenin/Norton).* Aside about checking for leaks of OAE/immittance probes (Groon et al., paper)- Define EPL, and note about measuring OAEs in EPL (Charaziak and Shera paper)
+- Using two-port network theory (Thevenin/Norton).
+- Aside about checking for leaks of OAE/immittance probes (Groon et al., paper)
+- Define EPL, and note about measuring OAEs in EPL (Charaziak and Shera paper)
 - Note about wideband MEMR (Keefe et al., 2017; Bharadwaj et al., 2022)
 
 ### Calibration of OAE microphones
