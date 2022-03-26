@@ -4,13 +4,11 @@
 
 ### Calibration of stationary sounds (including pure tones)
 
-- Sound pressure is local quantity (i.e., varies point-to-point in space, and instance-to-instance in time). What is intensity?
-- Considerations about coupling sound sources to the ear (free-field, circumaural, supra-aural, inserts), and simulating that situation on a calibrating instrument
-- Microphone frequency response on the calibrating instrument (sound level meter)
-- Linearity of sound source
-- Distortions in sound source
-- Inter-channel interactions
-- Calibration of the calibrating instruments using standard sources (e.g., pistonphone)
+- Sound pressure is a *local* quantity (i.e., varies point-to-point in space, and instance-to-instance in time). What is intensity?
+- Considerations about coupling sound sources to the ear (free-field, circumaural, supra-aural, inserts), and simulating that situation (to match the *average* human adult or child) on a calibrating instrument (e.g., sound level meter)
+- Linearity and distortions of the sound source
+- Inter-channel interactions (e.g., left-right separation)
+- Calibration of the calibrating instruments using standard sources (e.g., pistonphone), and knowing the microphone frequency response on the calibrating instrument.
 
 ### RETSPLs for different source-coupler combinations (i.e., headphones), and what dB HL means
 
