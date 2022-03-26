@@ -75,8 +75,11 @@ Scheperle, R. A., Goodman, S. S., & Neely, S. T. (2011). Further assessment of f
 
 Souza, N. N., Dhar, S., Neely, S. T., & Siegel, J. H. (2014). Comparison of nine methods to estimate ear-canal stimulus levels. The Journal of the Acoustical Society of America, 136(4), 1768-1787.
 
-Bharadwaj HM, Hustedt-Mai AR, Ginsberg HM, Dougherty KM, Muthaiah VPK, Hagedorn A, Simpson JM, Heinz MG. Cross-Species Experiments Reveal Widespread Cochlear Neural Damage in Normal Hearing. [In Press] Communications Biology. bioRxiv:https://doi.org/10.1101/2021.03.17.435900.
+Bharadwaj HM, Hustedt-Mai AR, Ginsberg HM, Dougherty KM, Muthaiah VPK, Hagedorn A, Simpson JM, Heinz MG. Cross-Species Experiments Reveal Widespread Cochlear Neural Damage in Normal Hearing. [In Press] Communications Biology. bioRxiv: https://doi.org/10.1101/2021.03.17.435900.
 
 Valente, M., Potts, L. G., Valente, L. M., Vass, W., & Goebel, J. (1994). Intersubject variability of real-ear sound pressure level: Conventional and insert earphones. Journal of the American Academy of Audiology, 5(6).
 
 Munro, K. J., & Davis, J. (2003). Deriving the real-ear SPL of audiometric data using the “coupler to dial difference” and the “real ear to coupler difference”. Ear and Hearing, 24(2), 100-110.
+
+Vencovsky, V., Rund, F., & Slegl, D. (2018). Reference equivalent threshold sound pressure levels for nonaudiometric headphones. Journal of the Audio Engineering Society, 66(3), 167-171.
+
