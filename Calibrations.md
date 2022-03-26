@@ -34,8 +34,7 @@
 - Directly measuring pressure using a probe microphone (aka "real-ear" calibrations)
 - Define FPL and contrast with incident pressure level
 - Considering pressure phase too vs. calibrations of intensity only
-- Performing FPL calibrations *in situ* as a substitute for real-ear measurements (Scheperle et al., 2011; Souza et al., 2014 and others)
-- Using two-port network theory (Thevenin/Norton).
+- Performing FPL calibrations *in situ* as a substitute for real-ear measurements (Scheperle et al., 2011; Souza et al., 2014 and others) using two-port network theory (Thevenin/Norton).
 - Aside about checking for leaks of OAE/immittance probes (Groon et al., paper)
 - Define EPL, and note about measuring OAEs in EPL (Charaziak and Shera paper)
 - Note about wideband MEMR (Keefe et al., 2017; Bharadwaj et al., 2022)
