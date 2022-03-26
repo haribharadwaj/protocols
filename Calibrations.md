@@ -29,7 +29,7 @@
 
 ### Wideband immittance and individualized calibrations
 
-- What are standing waves and why we need to account for them (especially for inserts)
+- What are standing waves and why we need to account for them (especially for inserts). Aside about warble tones in audiometry.
 - Define immittance formally (impedance and admittance, resistance and conductance, absorbance and reflectance; Rosowski et al., 2013)
 - Directly measuring pressure using a probe microphone (aka "real-ear" calibrations)
 - Define FPL and contrast with incident pressure level
