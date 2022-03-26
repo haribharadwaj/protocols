@@ -52,7 +52,7 @@
 ## Relevant standards
 
 - Just a table, or perhaps skip altogether
-- IEC 60645-1:2015, ISO 8523-1:2010, ISO 389, Couplers: IEC 318, 711, 60318-4 etc.
+- IEC 60645-1:2015, ISO 8523-1:2010, ISO 389, Couplers: IEC 318, 711, 60318–1 60318-4 etc.
 
 
 ## Useful references
