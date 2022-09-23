@@ -24,6 +24,7 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
 8.  Disinfect work surface with wipes and prepare set of electrodes and
     syringes by laying them out on a clean surface, possibly with paper towels.
     Do **not** fill syringe with gel yet, wait until subject is actually here to do so.
+9.  Check  that the required type of eartips are available. Perhaps attach the tips to the eaarphone transducers.
 
 ![Work surface for setup](surface.jpg)
 
@@ -39,6 +40,7 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     In describing the task/stimuli, be sure to mention any sounds that
     might potentially be startling if unexpected (e.g., MEMR elicitor).
     Run DEMO version of task, if applicable.
+4.  Intro form with visa-related issues. [TO EXPAND]
 
 ### EEG cap setup
 
@@ -221,3 +223,18 @@ These would apply for ABRs, EFRs, and cortical EEG measurements.
     or \"OR\" operations to combine bits. In the example images above,
     you can see different filtering and window durations being applied
     to get online averages for ABRs and cortical N100s respectively.
+
+
+### Cleanup
+
+1.  Unplug the electrodes from the amplifier. Walk your subject out of the booth.
+2.  Remove non-cap contacts from the subject first.
+3.  Undo the chin strap.
+4.  Stand behind your subject and remove the cap from their head, removing from front to back (minimizes tugging on hair).
+5.  Allow subject to use sink first. In the meantime, place cap in one of the white tubs. Remove the coiled external electrodes first.
+6.  Once subject is done washing, give them a towel.
+7.  Wash the external electrodes in warm water with regular soap (hand soap on the wall). Dry with paper towels and hang them on the hanger.
+8.  Wash the cap with the electrodes in for a bit (**important step for ease of removing gel**), trying to wash away some gel. Then, remove the electrodes from the cap, wash with warm water and regular soap; tap dry on paper towels and hang.
+9.  Wash the cap by running warm water through each slot (easier when you have a shower head) until gel is washed away. Use a Q-tip to remove any hard-to-wash gel from the slots in the cap and then wash some more. Then use some regular soap + tap dry and place on the cap drying thingy top-side down.
+10. Spray H2O2 on the cap and let air dry.
+11. Clear out the area.
